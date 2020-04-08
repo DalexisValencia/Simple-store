@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_list/details.dart/detail.dart';
 import 'package:to_do_list/resources/button.dart';
 
 class BottomNavigatorBarInApp extends StatelessWidget{
