@@ -1,6 +1,6 @@
-# to_do_list
+# Shop test
 
-A new Flutter project.
+A new test Flutter project.
 
 ## Getting Started
 
