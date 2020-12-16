@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_first_app/Lists/Categories.dart';
 import 'package:flutter_first_app/Widget/button.dart';
 
 class CategoriesSlider extends StatelessWidget {
@@ -9,7 +10,7 @@ class CategoriesSlider extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
       child: CarouselSlider(
         aspectRatio: 1.8,
-        items: [1, 2, 3, 4, 5].map((i) {
+        items: homeCategories.map((category) {
           return Builder(
             builder: (BuildContext context) {
               return Card(
@@ -21,7 +22,9 @@ class CategoriesSlider extends StatelessWidget {
                     //   image: AssetImage('assets/ex-1.png'),
                     //   fit: BoxFit.cover,
                     // ),
-                    color: Theme.of(context).accentColor,
+                    color: category.cardColor == 'primary'
+                        ? Theme.of(context).accentColor
+                        : Theme.of(context).textSelectionColor,
                     borderRadius: BorderRadius.circular(15),
                   ),
                   width: MediaQuery.of(context).size.width - 100,
@@ -30,16 +33,18 @@ class CategoriesSlider extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "Promotion",
+                        category.name,
                         style: Theme.of(context).textTheme.headline6.copyWith(
                               fontWeight: FontWeight.bold,
                               color: Theme.of(context).primaryColorLight,
                             ),
                       ),
                       Padding(
-                        padding: EdgeInsets.only(top: 5),
+                        padding: EdgeInsets.only(
+                          top: 5,
+                        ),
                         child: Text(
-                          "Get the latest info about this",
+                          category.description,
                           style: Theme.of(context).textTheme.caption.copyWith(
                                 color: Theme.of(context).primaryColorLight,
                               ),
@@ -53,7 +58,9 @@ class CategoriesSlider extends StatelessWidget {
                           height: 30,
                           child: CustomRaisedButton(
                             radius: 12,
-                            color: Theme.of(context).textSelectionColor,
+                            color: category.cardColor == 'primary'
+                                ? Theme.of(context).textSelectionColor
+                                : Theme.of(context).accentColor,
                             function: () {},
                             child: FittedBox(
                               fit: BoxFit.fitHeight,

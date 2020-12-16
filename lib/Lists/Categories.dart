@@ -16,4 +16,9 @@ List<Category> homeCategories = [
     description: 'Get the latest info about this',
     cardColor: 'primary',
   ),
+  Category(
+    name: 'Category 4',
+    description: 'Get noticed about our promotions',
+    cardColor: 'secondary',
+  ),
 ];
