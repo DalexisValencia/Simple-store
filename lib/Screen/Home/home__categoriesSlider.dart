@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_first_app/Lists/Categories.dart';
-import 'package:flutter_first_app/Widget/button.dart';
+import 'package:flutter_first_app/Widget/screens__button.dart';
 
 class CategoriesSlider extends StatelessWidget {
   @override

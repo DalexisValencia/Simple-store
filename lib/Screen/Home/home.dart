@@ -3,8 +3,8 @@ import 'package:flutter_first_app/Screen/Home/deliveryType/home__deliveryType.da
 import 'package:flutter_first_app/Screen/Home/gifts/home__gifts.dart';
 import 'package:flutter_first_app/Screen/Home/home__categoriesSlider.dart';
 import 'package:flutter_first_app/Screen/Home/home__userName.dart';
-import 'package:flutter_first_app/Widget/bottomNavigationBar.dart';
-import 'package:flutter_first_app/Widget/button.dart';
+import 'package:flutter_first_app/Widget/Navigation/bottomNavigationBar.dart';
+import 'package:flutter_first_app/Widget/screens__button.dart';
 
 class HomePage extends StatelessWidget {
   void onTabTapped() {}

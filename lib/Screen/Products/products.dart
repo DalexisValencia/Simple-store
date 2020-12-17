@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_first_app/Screen/Products/ProductList/products__list.dart';
 import 'package:flutter_first_app/Screen/Products/products__search.dart';
 import 'package:flutter_first_app/Screen/Products/products__tagCategory.dart';
-import 'package:flutter_first_app/Widget/actionBar.dart';
-import 'package:flutter_first_app/Widget/bottomNavigationBar.dart';
+import 'package:flutter_first_app/Screen/Products/products__actionBar.dart';
+import 'package:flutter_first_app/Widget/Navigation/bottomNavigationBar.dart';
 
 class ProductsPage extends StatelessWidget {
   @override

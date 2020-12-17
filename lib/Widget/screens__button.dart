@@ -9,14 +9,15 @@ class CustomRaisedButton extends StatelessWidget {
   final Color splashColor;
   final EdgeInsets padding; //Recordar que los mas nuevos no lo tienen
 
-  CustomRaisedButton(
-      {this.color,
-      this.function,
-      this.child,
-      this.borderColor,
-      this.splashColor,
-      this.padding,
-      this.radius});
+  CustomRaisedButton({
+    this.color,
+    this.function,
+    this.child,
+    this.borderColor,
+    this.splashColor,
+    this.padding,
+    this.radius,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -25,8 +26,12 @@ class CustomRaisedButton extends StatelessWidget {
       elevation: 0,
       splashColor: splashColor == null ? color : splashColor,
       shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(radius),
-          side: BorderSide(width: 2, color: borderColor)),
+        borderRadius: BorderRadius.circular(radius),
+        side: BorderSide(
+          width: 2,
+          color: borderColor,
+        ),
+      ),
       onPressed: function,
       color: color,
       child: child,

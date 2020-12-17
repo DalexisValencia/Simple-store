@@ -7,8 +7,8 @@ import 'package:flutter_first_app/Screen/Details/details__size.dart';
 import 'package:flutter_first_app/Screen/Details/details__summary.dart';
 import 'package:flutter_first_app/Screen/Details/details__title.dart';
 import 'package:flutter_first_app/Screen/Details/details__topping.dart';
-import 'package:flutter_first_app/Widget/bottomNavigationBar.dart';
-import 'package:flutter_first_app/Widget/button.dart';
+import 'package:flutter_first_app/Widget/Navigation/bottomNavigationBar.dart';
+import 'package:flutter_first_app/Widget/screens__button.dart';
 
 class DetailPage extends StatelessWidget {
   @override

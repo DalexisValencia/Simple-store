@@ -17,8 +17,9 @@ class ActionBarUser extends StatelessWidget {
             right: 0,
             child: Container(
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(15),
-                  color: Theme.of(context).accentColor),
+                borderRadius: BorderRadius.circular(15),
+                color: Theme.of(context).accentColor,
+              ),
               width: 8,
               height: 8,
             ),
