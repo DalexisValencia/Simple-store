@@ -21,7 +21,7 @@ This Screen has a background product image, amount selector widget, size selecto
 
 ## Preview:
 
-![Alt Text](https://github.com/DalexisValencia/firstTest-flutter-app/tree/master/previews/gift)
+![Alt Text](https://github.com/DalexisValencia/firstTest-flutter-app/blob/master/previews/gift/preview-all.gif)
 
 
 **Is the gif in bad quality? i invite you to visit [this link](https://youtu.be/r07KCoHMF28)**
