@@ -11,10 +11,12 @@ This Screen has a horizontal categories widget, a a selector delivery type widge
 
 ## PRODUCTS
 This Screen has a search field widget, category scroll tags widget and a widget list of ten products with and add button (only design, no events):
+
 ![Alt Text](https://github.com/DalexisValencia/firstTest-flutter-app/blob/master/previews/gift/preview-products.gif)
 
 ## DETAILS
 This Screen has a background product image, amount selector widget, size selector widget, an addition picker, and a field to add a note(only design, no events):
+
 ![Alt Text](https://github.com/DalexisValencia/firstTest-flutter-app/blob/master/previews/gift/preview-details.gif)
 
 ## Preview:
